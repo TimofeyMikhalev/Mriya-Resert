@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Roboto"),
+         /* Если не получилось, загрузит woff2 */
+         url("/app/fonts/EuclidCircularB-Regular.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/app/fonts/EuclidCircularB-Regular.woff") format("woff");
+    }
+
+  @font-face {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 500;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Medium"),
+         /* Если не получилось, загрузит woff2 */
+         url("/app/fonts/EuclidCircularB-Medium.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/app/fonts/EuclidCircularB-Medium.woff") format("woff");
+    }
+
+
+  @font-face {
+    font-family: "Euclid Circular B";
+    font-style: normal;
+    font-weight: 300;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Light"),
+         /* Если не получилось, загрузит woff2 */
+         url("/app/fonts/EuclidCircularB-Light.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/app/fonts/EuclidCircularB-Light.woff") format("woff");
+    }
+
+    @font-face {
+        font-family: "Euclid Circular A";
+        font-style: normal;
+        font-weight: 600;
+        /* Браузер сначала попробует найти шрифт локально */
+        src: local("Semi-bold"),
+             /* Если не получилось, загрузит woff2 */
+             url("/app/fonts/EuclidCircularA-SemiBoldItalic.woff2") format("woff2"),
+             /* Если браузер не поддерживает woff2, загрузит woff */
+             url("/app/fonts/EuclidCircularA-SemiBoldItalic.woff") format("woff");
+        }
+
+        
+    @font-face {
+        font-family: "SangBleu Kingdom";
+        font-style: normal;
+        font-weight: 400;
+        /* Браузер сначала попробует найти шрифт локально */
+        src: local("Roboto"),
+             /* Если не получилось, загрузит woff2 */
+             url("/app/fonts/SangBleuKingdom-Regular-WebXL.otf") format("otf"),
+             /* Если браузер не поддерживает woff2, загрузит woff */
+
+        }
+
+        @font-face {
+            font-family: "SangBleu Kingdom";
+            font-style: normal;
+            font-weight: 700;
+            /* Браузер сначала попробует найти шрифт локально */
+            src: local("Bold"),
+                 /* Если не получилось, загрузит woff2 */
+                 url("/app/fonts/SangBleuKingdom-Bold-WebXL.otf") format("otf"),
+                 /* Если браузер не поддерживает woff2, загрузит woff */
+                
+            }
